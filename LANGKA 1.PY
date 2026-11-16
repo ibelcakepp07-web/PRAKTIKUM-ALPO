@@ -1,16 +1,12 @@
-# --- 1. DEKLARASI DATA DIRI MAHASISWA ---
-nim = 261080200031
-nama_mahasiswa = "Ibel Maulana Abi Pratama"
-semster = 1
-is_aktif = True # Status registrasi ulang
+# 1. Deklarasi Variabel Sederhana
+Nama_depan = "Ibel"
+Umur = 19
+Tinggi_badan = 167
+is_aktif = True
 
-# --- 2.  DATA NILAI MENTAH (Simulasi input dari form web / Database) ---
-# Catatan: Input dari form seringkali terbaca sebagai string
-str_nilai_algoritma = "85,5"
-str_nilai_basis_data = "78.0"
-str_nilai_pemrograman_web = "90.2" 
-sks_per_matkul = 3 # Integer
+# Menampilkan nilai variabel
+print("Nama:", "Ibel" )
+print("Umur:", 19 )
+print("Tinggi Badan:", 167)
+print("Status Aktif:", is_aktif)
 
-# Tampilan data awal
-print(f"Data Mahasiswa: {nama_mahasiswa} (NIM: {nim})")
-print("Status Aktif :", is_aktif)

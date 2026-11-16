@@ -1,13 +1,24 @@
-# --- 5. TIPE DATA KOLEKSI ---
-# List daftar mata kuliah yang diambil
-daftar_matkul = ["Algoritma dan Pemrograman", "Basis Data", "Pemrograman Web"]
+# 1. LIST (Berurutan, bisa diubah / mutable)
+hobi = ["Membaca", "Koding", "Berenang"]
+print("List Hobi:", hobi)
+print("Tipe:", type(hobi))
 
-# Dictionary untuk menyimpan Nilai Mutu (KRS/KHS)
-transkrip_nilai = {
-    "Algoritma dan Pemrograman": 4.0,  # Nilai A
-    "Basis Data": 3.0,                  # Nilai B
-    "Pemrograman Web": 4.0               # Nilai A
+ # 2. TUPLE (Berurutan, TIDAK bisa diubah / immutable)
+koordinat = (-6.1751, 106.8650)
+print("Tuple Koordinat:", koordinat)
+print("Tipe:", type(koordinat))
+
+ # 3. DICTIONARY (Pasangan Key : Value)
+mahasiswa = {
+    "nama": "Ibel",
+    "nim": "261080200031",
+    "ipk": 3.85
 }
+print("Dict Mahasiswa:", mahasiswa)
+print("Nama Mahasiswa:", mahasiswa["nama"])
+print("Tipe:", type(mahasiswa))
 
-print("\nDaftar Mata Kuliah Diambil:", daftar_matkul)
-print("Detail Transkrip Mutu      :", transkrip_nilai)
+ # 4. SET (Nilai unik, tidak berurutan, tidak ada duplikat)
+angka_unik = {1, 2, 2, 3, 4, 4, 5}
+print("Set Angka Unik (otomatis menghapus duplikat):", angka_unik)
+print("Tipe:", type(angka_unik))
